@@ -1,15 +1,16 @@
 import time
 
-#Brute Force
+# Brute Force
 def sum1(n):
     sum = 0
     for i in range(n+1):
         sum += i
     return sum
 
-#Formula
+# Formula
 def sum2(n):
     return(n*(n+1)/2)
+
 
 n = 100000
 
