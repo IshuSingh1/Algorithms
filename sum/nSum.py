@@ -1,16 +1,17 @@
 import time
 
-#Normal
+#Brute Force
 def sum1(n):
     sum = 0
     for i in range(n+1):
         sum += i
     return sum
 
+#Formula
 def sum2(n):
     return(n*(n+1)/2)
 
-n = 100
+n = 100000
 
 start = time.time()
 sum = sum1(n)
